@@ -38,7 +38,7 @@ void draw()
   drawAll();
 }
 
-void mouseClicked()
+void mouseReleased()
 {
   noStroke();
   ps.get(k).vertices.add(new Point(mouseX, mouseY));
